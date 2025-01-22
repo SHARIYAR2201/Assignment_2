@@ -351,8 +351,6 @@ nav>ul>li{
 
 
 
-
-
 .main-div{
 
     display: flex;
@@ -439,34 +437,34 @@ nav>ul>li{
         height: 5px;
         background-color: black;
         margin: 6px 0;
-      }
-      .banner{
+    }
+    .banner{
         flex-direction:column-reverse;
-      }
-      .banner-text{
+    }
+    .banner-text{
         align-items: center;
         text-align: center;
-      }
-      .section{
+    }
+    .section{
         flex-direction: column;
-      }
-      .arrow{
+    }
+    .arrow{
         display: none;
-      }
-      .central-1{
+    }
+    .central-1{
         margin: 0;
         flex-direction: column;
         height:auto
-      }
-      .central-2{
+    }
+    .central-2{
         display: none;
-      }
-      .main-div{
+    }
+    .main-div{
         flex-direction: column;
         height:auto;
         width:auto
-      }
-      .Last-bar {
+    }
+    .Last-bar {
         flex-direction: column; 
         height: auto; 
         padding: 20px; 
@@ -486,8 +484,38 @@ nav>ul>li{
         font-size: 18px;
         gap: 10px;
     }
-
+    .mar{
+        display: none;
+    }
     .part3 {
         font-size: 20px;
+    }
+    .central-2{
+        display:none;
+    }
+    .central-1 {
+        flex-direction: column; 
+    }
+    /* .central-3 {
+        grid-template-columns: 1fr;
+    } */
+    .internal-1{
+        width:25%
+    }
+    .internal-2{
+        width:25%
+    }
+    .stories h2 {
+        font-size: 24px;
+    }
+
+    .btn-stories {
+        width: 150px; 
+        height: 40px;
+    }
+
+    .b1, .b2, .b3, .b4, .b5 {
+        width: 120px; 
+        height: 35px;
     }
 }
