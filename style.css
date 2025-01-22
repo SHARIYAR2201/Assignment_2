@@ -174,7 +174,12 @@ nav>ul>li{
     font-weight: 900;
     margin: 10px auto auto 23px ;
 }
-
+.mar{
+    background-color: none;
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
 .stories{
     justify-content: center;
     align-items: center;
@@ -461,7 +466,28 @@ nav>ul>li{
         height:auto;
         width:auto
       }
-      .log1{
-        width:auto;
-      }
+      .Last-bar {
+        flex-direction: column; 
+        height: auto; 
+        padding: 20px; 
+    }
+    .Last-bar{
+        width:100%;
+    }
+    .log1 h2 {
+        font-size: 24px;
+    }
+
+    .part1 p {
+        font-size: 14px; 
+    }
+
+    .part2 {
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    .part3 {
+        font-size: 20px;
+    }
 }
