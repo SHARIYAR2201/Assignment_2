@@ -16,7 +16,7 @@ nav>ul>li{
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    margin: 0 450px 0 430px;
+    
 
 
 }
@@ -496,14 +496,21 @@ nav>ul>li{
     .central-1 {
         flex-direction: column; 
     }
-    /* .central-3 {
-        grid-template-columns: 1fr;
-    } */
+    .central-3{
+        border:1px solid black;
+        width:40%;
+    }
     .internal-1{
         width:25%
     }
     .internal-2{
         width:25%
+    }
+    .internal-3{
+        width:50%
+    }
+    .internal-4{
+        width:50%
     }
     .stories h2 {
         font-size: 24px;
